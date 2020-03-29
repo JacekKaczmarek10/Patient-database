@@ -1,9 +1,12 @@
 # Patient database
 
 Version: 1.0
+
+
 Run on Java 11
 
 Short description:
+
 Javafx desktop application which main methods are to create patient visit and then show list of visits to user.
 Below i put some screenshots so they can help understand how application work.
  
@@ -25,5 +28,6 @@ Some other screenshoots:
 
 Application has method to delete visit. Right click on visit and then left click on delete.
 It is also possible to close application on two ways: click trash cymbol or file->exit.
+
 
 I consider to add some extra methods in the future to make my application more advanced. 
