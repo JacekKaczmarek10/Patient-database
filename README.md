@@ -12,19 +12,19 @@ Below i put some screenshots so they can help understand how application work.
  
  Adding new patient visit:
  
- ![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/ss5.png)
+ ![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/Screenshoots/ss5.png)
  
  Showing visit data to user:
  
- ![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/ss6.png)
+ ![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/Screenshoots/ss6.png)
 
 
 Some other screenshoots:
 
-![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/ss1.png)
-![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/ss2.png)
-![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/ss3.png)
-![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/ss4.png)
+![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/Screenshoots/ss1.png)
+![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/Screenshoots/ss2.png)
+![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/Screenshoots/ss3.png)
+![](https://raw.githubusercontent.com/JacekKaczmarek10/Patient-database/master/Screenshoots/ss4.png)
 
 Application has method to delete visit. Right click on visit and then left click on delete.
 It is also possible to close application on two ways: click trash cymbol or file->exit.
