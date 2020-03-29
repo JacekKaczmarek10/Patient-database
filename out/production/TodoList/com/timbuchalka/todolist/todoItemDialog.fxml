@@ -1,0 +1,76 @@
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<DialogPane fx:controller="com.timbuchalka.todolist.DialogController"
+            xmlns:fx="http://javafx.com/fxml">
+    <headerText>
+        Please complete the fields below
+    </headerText>
+    <content>
+        <GridPane vgap="10" hgap="10">
+            <Label text="Patient name" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <TextField fx:id="patientData" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+          <Label text="Visit type" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <ChoiceBox fx:id="choiceBox" GridPane.rowIndex="1" GridPane.columnIndex="1">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="tooth extraction"/>
+                        <String fx:value="tooth treatment"/>
+                        <String fx:value="scaling"/>
+                        <String fx:value="dental consultation"/>
+                        <String fx:value="putting on a fixed device"/>
+                    </FXCollections>
+                </items>
+
+            </ChoiceBox>
+
+
+
+            <HBox>
+
+            </HBox>
+
+            <Label text="Details:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <TextArea fx:id="detailsArea" GridPane.rowIndex="2" GridPane.columnIndex="1"
+                        WrapText="true"/>
+            <Label text="Date of visit:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <DatePicker fx:id="deadlinePicker" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+
+            <Label text="Hour of visit:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <ChoiceBox fx:id="choiceBox1" GridPane.rowIndex="4" GridPane.columnIndex="1">
+                <items>
+                    <FXCollections
+                            fx:factory="observableArrayList">
+                        <String fx:value="08 00"/>
+                        <String fx:value="08 30"/>
+                        <String fx:value="09 00"/>
+                        <String fx:value="09 30"/>
+                        <String fx:value="10 00"/>
+                        <String fx:value="10 30"/>
+                        <String fx:value="11 00"/>
+                        <String fx:value="11 30"/>
+                        <String fx:value="12 00"/>
+                        <String fx:value="12 30"/>
+                        <String fx:value="13 00"/>
+                        <String fx:value="13 30"/>
+                        <String fx:value="14 00"/>
+                        <String fx:value="14 30"/>
+                        <String fx:value="15 00"/>
+                        <String fx:value="15 30"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+
+
+        </GridPane>
+    </content>
+</DialogPane>
