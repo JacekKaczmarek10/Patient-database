@@ -1,8 +1,5 @@
-package com.timbuchalka.todolist.datamodel;
+package com.jacekkaczmarek.todolist.datamodel;
 
-import javafx.scene.control.ChoiceBox;
-
-import java.awt.*;
 import java.time.LocalDate;
 
 /**

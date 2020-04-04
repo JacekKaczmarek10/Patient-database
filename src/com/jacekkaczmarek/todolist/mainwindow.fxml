@@ -16,7 +16,7 @@
 <?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.control.TextField?>
-<BorderPane fx:id="mainBorderPane" fx:controller="com.timbuchalka.todolist.Controller"
+<BorderPane fx:id="mainBorderPane" fx:controller="com.jacekkaczmarek.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <VBox>

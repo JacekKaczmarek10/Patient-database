@@ -1,7 +1,7 @@
-package com.timbuchalka.todolist;
+package com.jacekkaczmarek.todolist;
 
-import com.timbuchalka.todolist.datamodel.TodoData;
-import com.timbuchalka.todolist.datamodel.TodoItem;
+import com.jacekkaczmarek.todolist.datamodel.TodoData;
+import com.jacekkaczmarek.todolist.datamodel.TodoItem;
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
@@ -20,7 +20,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.util.Callback;
 
@@ -28,7 +27,6 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Predicate;

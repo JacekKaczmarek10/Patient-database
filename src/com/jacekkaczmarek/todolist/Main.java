@@ -1,12 +1,10 @@
-package com.timbuchalka.todolist;
+package com.jacekkaczmarek.todolist;
 
-import com.timbuchalka.todolist.datamodel.TodoData;
+import com.jacekkaczmarek.todolist.datamodel.TodoData;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;

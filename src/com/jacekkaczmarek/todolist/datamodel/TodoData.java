@@ -1,4 +1,4 @@
-package com.timbuchalka.todolist.datamodel;
+package com.jacekkaczmarek.todolist.datamodel;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

@@ -1,17 +1,13 @@
-package com.timbuchalka.todolist;
+package com.jacekkaczmarek.todolist;
 
-import com.sun.jdi.Value;
-import com.timbuchalka.todolist.datamodel.TodoData;
-import com.timbuchalka.todolist.datamodel.TodoItem;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
+import com.jacekkaczmarek.todolist.datamodel.TodoData;
+import com.jacekkaczmarek.todolist.datamodel.TodoItem;
 import javafx.fxml.FXML;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-import java.awt.*;
 import java.time.LocalDate;
 
 /**
