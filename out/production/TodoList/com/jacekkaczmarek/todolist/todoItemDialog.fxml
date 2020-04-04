@@ -8,7 +8,7 @@
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.collections.FXCollections?>
 <?import java.lang.String?>
-<DialogPane fx:controller="com.timbuchalka.todolist.DialogController"
+<DialogPane fx:controller="com.jacekkaczmarek.todolist.DialogController"
             xmlns:fx="http://javafx.com/fxml">
     <headerText>
         Please complete the fields below
