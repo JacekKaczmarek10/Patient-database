@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/TodoList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_graphics.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +67,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -87,10 +94,11 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="P:/fxappDDD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -556,7 +564,7 @@
       <method />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.timbuchalka.todolist.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.jacekkaczmarek.todolist.Main" />
       <module name="TodoList" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
@@ -696,10 +704,10 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="79" y="180" key="#Project_Structure" timestamp="1585327842601">
+    <state x="79" y="180" key="#Project_Structure" timestamp="1585998722615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="79" y="180" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585327842601" />
+    <state x="79" y="180" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1585998722615" />
     <state x="285" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1585399171962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -708,34 +716,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="338" y="411" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585155183783" />
-    <state x="193" y="263" key="FileChooserDialogImpl" timestamp="1585358135929">
+    <state x="674" y="279" key="FileChooserDialogImpl" timestamp="1585999117353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="193" y="263" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585358135929" />
-    <state width="915" height="125" key="GridCell.Tab.0.bottom" timestamp="1585489039990">
+    <state x="674" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585999117353" />
+    <state width="1877" height="126" key="GridCell.Tab.0.bottom" timestamp="1585998780200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="915" height="125" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585489039990" />
-    <state width="915" height="125" key="GridCell.Tab.0.center" timestamp="1585489039990">
+    <state width="1877" height="126" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585998780200" />
+    <state width="1877" height="126" key="GridCell.Tab.0.center" timestamp="1585998780200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="915" height="125" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585489039990" />
-    <state width="915" height="125" key="GridCell.Tab.0.left" timestamp="1585489039990">
+    <state width="1877" height="126" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585998780200" />
+    <state width="1877" height="126" key="GridCell.Tab.0.left" timestamp="1585998780200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="915" height="125" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585489039990" />
-    <state width="915" height="125" key="GridCell.Tab.0.right" timestamp="1585489039990">
+    <state width="1877" height="126" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585998780200" />
+    <state width="1877" height="126" key="GridCell.Tab.0.right" timestamp="1585998780200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="915" height="125" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585489039990" />
+    <state width="1877" height="126" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585998780200" />
     <state x="0" y="100" key="SettingsEditor" timestamp="1585237826473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="100" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585237826473" />
-    <state x="194" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1585264054568">
+    <state x="194" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1585999099962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="194" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585264054568" />
+    <state x="194" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585999099962" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
