@@ -1,11 +1,6 @@
 # Patient database
 
-Version: 1.0
 
-
-Run on Java 11
-
-Short description:
 
 Javafx desktop application which main methods are to create patient visit and then show list of visits to user.
 Below i put some screenshots so they can help understand how application work.
